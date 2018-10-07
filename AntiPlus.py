@@ -21,11 +21,11 @@ from telebot import types
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
-token = '' #Token 
+token = '690218329:AAEiUuQcCE7V-NbIXxOnp2WW6BFi_Mgv4jg' #Token 
 bot = telebot.TeleBot(token)
 database = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
-sudos = [123456789,987654321] #Sudo IDs
-channels = -1221063328854 #Channel ID
+sudos = [590183272] #Sudo IDs
+channels =-1001267164597 #Channel ID
 db = "https://api.telegram.org/bot{}/getMe?".format(token)
 res = urllib.urlopen(db)
 res_body = res.read()
@@ -1062,8 +1062,7 @@ def delete(msg):
 #  database.sadd('msg', msgs)
 
 ######################################################################################
-# BoT Writed By Mr.Nitro(@HajiNitro) & @GetAndroid
-# Thanks To : 1 : @AlphaCyber 2 : @MosyDev  3: @Anony
+# BoT Writed By Mr_Badbooy
 
 #  Version > (FINAL)  #
 bot.polling(True)
