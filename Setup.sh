@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo -e "Setup Started Please Wait..."
-echo -e ">>>>>>>>> @GetAndroid <<<<<<<<<<"
+echo -e ">>>>>>>>> @Mr_Badbooy <<<<<<<<<<"
 sleep 2
 sudo apt-get install python-pip
 pip install pyTelegramBotAPI
